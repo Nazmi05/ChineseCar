@@ -1,0 +1,21 @@
+@import '../../mixins.scss';
+
+.header__item{
+    @include GeneralFont();
+    font: 700 14px / 144% var(--font-family);
+   color: #fff;
+}
+
+.header__num{
+    font: 600 15px / 151% var(--font-family);
+text-align: right;
+color: #fff;
+}
+
+.header__time{
+text-align: right;
+color: #fff;
+}
+
+
+
