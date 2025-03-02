@@ -44,7 +44,7 @@ export default function Drive() {
         // ШАПКА
 
         <section className="drive mt-20  ">
-            <div className="container max-w-[1200px] w-full mx-auto px-4">
+            <div className="container max-w-[1240px] w-full mx-auto px-4 lg:px-0 ">
                 <div className="drive__content  ">
                     <div className="drive__text lg:flex lg:justify-between items-center">
                         <h2 className="drive__title text-3xl font-light text-[#007029] lg:text-[48px] lg:leading-[117%] ">Выбери свой цвет</h2>
@@ -77,7 +77,7 @@ export default function Drive() {
                                 <div key={item.id} >
                                     <input
                                         type="radio"
-                                        className=" appearance-none w-5 h-5 transition   rounded-full bg-gray-200 focus:ring-2 focus:ring-[#007029] ring-offset-2 ring-1 ring-gray-500"
+                                        className=" appearance-none w-5 h-5 transition cursor-pointer  rounded-full bg-gray-200 focus:ring-2 focus:ring-[#007029] ring-offset-2 ring-1 ring-gray-500"
                                         onChange={() => { setActive(item.id) }}
                                         checked={active === (item.id)}
                                         value={item.id}
