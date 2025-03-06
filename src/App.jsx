@@ -4,6 +4,10 @@ import Video from "./assets/HeroBackVideo.mp4";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Logos from "./components/Logos";
+import Drive from "./components/Drive"
+import "./components/Drive/drive.scss"
+import Stock from "./components/Stock"
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,9 +31,14 @@ function App() {
         </div>
       </div>
       <Logos />
+      <Drive />
+      <Stock />
     </>
   );
 }
 
 export default App;
+
+
+
 
